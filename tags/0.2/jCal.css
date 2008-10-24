@@ -1,0 +1,85 @@
+.jCal {
+	width:189px;
+	height:21px;
+	text-align:center;
+	vertical-align:top;
+}
+.jCalMask, .jCalMove {
+	position:absolute;
+	overflow:hidden;
+}
+.jCal .month {
+	height:16px;
+	width:157px;
+	text-align:center;
+	vertical-align:bottom;
+	font-family:Tahoma;
+	font-size:8pt;
+	color:#000000;
+	float:left;
+}
+.jCal .left {
+	vertical-align:middle;
+	width:16px;
+	height:16px;
+	cursor:pointer;
+	float:left;
+}
+.jCal .right {
+	vertical-align:middle;
+	width:16px;
+	height:16px;
+	cursor:pointer;
+	float:right;
+}
+.jCalMo {
+	width:189px;
+	float:left;
+	overflow:visible;
+	height:100%;
+	padding-right:2px;
+	padding-left:2px;
+	white-space:nowrap;
+}
+.jCalMo .dow, .jCalMo .day, .jCalMo .pday, .jCalMo .aday, .jCalMo .overDay, .jCalMo .invday, .jCalMo .selectedDay {
+	font-family:Tahoma;
+	font-size:8pt;
+	color:#000000;
+	border-right:1px solid #CCCCCC;
+	border-bottom:1px solid #CCCCCC;
+	border-left:1px solid #EEEEEE;
+	text-align:center;
+	cursor:default;
+	float:left;
+	width:25px;
+}
+.jCalMo .dow {
+	background:#EEEEEE url(eeGrad.gif) bottom repeat-x;
+	border-bottom:0px;
+}
+.jCalMo .day, .jCalMo .invday {
+	height:25px;
+	text-align:left;
+}
+.jCalMo .day {
+	cursor:pointer;
+	background:#ffffff;
+}
+.jCalMo .invday {
+	color:#808080;
+	background:#eeeeee;
+	text-decoration:line-through;
+}
+.jCalMo .pday, .jCalMo .aday {
+	height:25px;
+	background:#e3e3e3;
+	color:#CCCCCC;
+}
+.jCalMo .selectedDay {
+	color:#ffffff;
+	background:rgb(0, 143, 214);
+}
+.jCalMo .overDay {
+	color:#ffffff;
+	background:rgb(0, 102, 153);
+}
